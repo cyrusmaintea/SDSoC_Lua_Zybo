@@ -1,0 +1,22 @@
+(c) Copyright 2012-2016 Xilinx, Inc. All Rights Reserved.
+#-----------------------------------------------------------
+# Tool version  : sdscc 2016.3 SW Build 1721985 on Nov 29 2016 18:45:16
+# Start time    : Tue Jan 10 22:22:28 -0500 2017
+# Command line  : sdscc -std=gnu99 -o luac luac.o liblua.a -lm
+# Log file      : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds.log
+# Journal file  : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds.jou
+# Report file   : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds.rpt
+#-----------------------------------------------------------
+
+-------------------
+Design Timing Check
+-------------------
+-------------------
+Data Motion Network
+-------------------
+
+Data motion network report generated in C:/Users/DevolutionX/workspace/lua/src/_sds/reports
+
+-------------------
+Design Utilization
+-------------------

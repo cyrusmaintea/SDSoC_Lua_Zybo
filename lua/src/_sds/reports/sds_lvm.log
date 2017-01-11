@@ -1,0 +1,21 @@
+(c) Copyright 2012-2016 Xilinx, Inc. All Rights Reserved.
+#-----------------------------------------------------------
+# Tool version  : sdscc 2016.3 SW Build 1721985 on Nov 29 2016 18:45:16
+# Start time    : Tue Jan 10 22:21:55 -0500 2017
+# Command line  : sdscc -std=gnu99 -O2 -Wall -Wextra -DLUA_COMPAT_5_2 -c -o lvm.o lvm.c
+# Log file      : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds_lvm.log
+# Journal file  : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds_lvm.jou
+# Report file   : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds_lvm.rpt
+#-----------------------------------------------------------
+
+INFO: [SDSoC 0-0] Create data motion intermediate representation
+clang_wrapper  -std=gnu99 -Wall -Wextra -DLUA_COMPAT_5_2 -D __SDSCC__ -target arm-linux-gnueabihf -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -O0 -g     -I D:/Xilinx/SDx/2016.3/aarch32-linux/include  -I D:/Xilinx/SDx/2016.3/Vivado_HLS/include   -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/lib/gcc/arm-linux-gnueabihf/5.2.1/include -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/lib/gcc/arm-linux-gnueabihf/5.2.1/include-fixed -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/arm-linux-gnueabihf/include -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/arm-linux-gnueabihf/libc/usr/include -emit-llvm -S C:/Users/DevolutionX/workspace/lua/src/lvm.c -o C:/Users/DevolutionX/workspace/lua/src/_sds/.llvm/lvm.s
+
+C:\Users\DevolutionX\workspace\lua\src>D:\Xilinx\SDx\2016.3\llvm-clang\win64\llvm\bin\clang.exe -std=gnu99 -Wall -Wextra -DLUA_COMPAT_5_2 -D __SDSCC__ -target arm-linux-gnueabihf -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -O0 -g -I D:/Xilinx/SDx/2016.3/aarch32-linux/include -I D:/Xilinx/SDx/2016.3/Vivado_HLS/include -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/lib/gcc/arm-linux-gnueabihf/5.2.1/include -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/lib/gcc/arm-linux-gnueabihf/5.2.1/include-fixed -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/arm-linux-gnueabihf/include -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/arm-linux-gnueabihf/libc/usr/include -emit-llvm -S C:/Users/DevolutionX/workspace/lua/src/lvm.c -o C:/Users/DevolutionX/workspace/lua/src/_sds/.llvm/lvm.s 
+
+C:\Users\DevolutionX\workspace\lua\src>exit /b 0 
+INFO: [SDSoC 0-0] Compiling C:/Users/DevolutionX/workspace/lua/src/lvm.c
+arm-linux-gnueabihf-gcc -c  -std=gnu99 -O2 -Wall -Wextra -DLUA_COMPAT_5_2 -D __SDSCC__      -I D:/Xilinx/SDx/2016.3/aarch32-linux/include  -I D:/Xilinx/SDx/2016.3/Vivado_HLS/include C:/Users/DevolutionX/workspace/lua/src/lvm.c -o lvm.o
+arm-linux-gnueabihf-objcopy --add-section .xdsdata=C:/Users/DevolutionX/workspace/lua/src/_sds/swstubs/lvm.o.xml lvm.o
+sdscc log file saved as C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds_lvm.log
+sdscc completed at Tue Jan 10 22:21:58 -0500 2017

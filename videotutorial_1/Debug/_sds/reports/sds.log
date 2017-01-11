@@ -1,0 +1,177 @@
+(c) Copyright 2012-2016 Xilinx, Inc. All Rights Reserved.
+#-----------------------------------------------------------
+# Tool version  : sds++ 2016.3 SW Build 1721985 on Nov 29 2016 18:45:16
+# Start time    : Wed Jan 11 02:08:12 -0500 2017
+# Command line  : sds++ {-LC:\Users\DevolutionX\workspace\videotutorial_1\lib} -o videotutorial_1.elf ./src/main.o -llua -dmclkid 1 -sds-sys-config linux -sds-proc a9_0 -sds-pf zybo
+# Log file      : C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/reports/sds.log
+# Journal file  : C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/reports/sds.jou
+# Report file   : C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/reports/sds.rpt
+#-----------------------------------------------------------
+
+INFO: [SDSoC 0-0] Removing implementation files from previous run
+Libraries: lua
+Library Paths {C:\Users\DevolutionX\workspace\videotutorial_1\lib} {}
+Searching for static library liblua.a
+Library liblua.a found in C:/Users/DevolutionX/workspace/videotutorial_1/lib/liblua.a
+arm-linux-gnueabihf-ar t C:/Users/DevolutionX/workspace/videotutorial_1/lib/liblua.a
+Library objects: lapi.o
+lcode.o
+lctype.o
+ldebug.o
+ldo.o
+ldump.o
+lfunc.o
+lgc.o
+llex.o
+lmem.o
+lobject.o
+lopcodes.o
+lparser.o
+lstate.o
+lstring.o
+ltable.o
+ltm.o
+lundump.o
+lvm.o
+lzio.o
+lauxlib.o
+lbaselib.o
+lbitlib.o
+lcorolib.o
+ldblib.o
+liolib.o
+lmathlib.o
+loslib.o
+lstrlib.o
+ltablib.o
+lutf8lib.o
+loadlib.o
+linit.o
+arm-linux-gnueabihf-ar xov C:/Users/DevolutionX/workspace/videotutorial_1/lib/liblua.a
+x - lapi.o
+x - lcode.o
+x - lctype.o
+x - ldebug.o
+x - ldo.o
+x - ldump.o
+x - lfunc.o
+x - lgc.o
+x - llex.o
+x - lmem.o
+x - lobject.o
+x - lopcodes.o
+x - lparser.o
+x - lstate.o
+x - lstring.o
+x - ltable.o
+x - ltm.o
+x - lundump.o
+x - lvm.o
+x - lzio.o
+x - lauxlib.o
+x - lbaselib.o
+x - lbitlib.o
+x - lcorolib.o
+x - ldblib.o
+x - liolib.o
+x - lmathlib.o
+x - loslib.o
+x - lstrlib.o
+x - ltablib.o
+x - lutf8lib.o
+x - loadlib.o
+x - linit.o
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lapi.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lapi.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lcode.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lcode.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lctype.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lctype.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ldebug.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ldebug.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ldo.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ldo.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ldump.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ldump.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lfunc.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lfunc.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lgc.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lgc.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/llex.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/llex.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lmem.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lmem.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lobject.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lobject.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lopcodes.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lopcodes.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lparser.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lparser.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lstate.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lstate.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lstring.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lstring.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ltable.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ltable.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ltm.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ltm.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lundump.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lundump.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lvm.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lvm.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lzio.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lzio.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lauxlib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lauxlib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lbaselib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lbaselib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lbitlib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lbitlib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lcorolib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lcorolib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ldblib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ldblib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/liolib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/liolib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lmathlib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lmathlib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/loslib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/loslib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lstrlib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lstrlib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ltablib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/ltablib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lutf8lib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/lutf8lib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/loadlib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/loadlib.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/linit.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.libs/lua/linit.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+INFO: [SDSoC 0-0] Analyzing object files
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/src/main.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/videotutorial_1/Debug/src/main.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.data/xddata.xml
+build_xd_ip_db  -sds-pf D:/Xilinx/SDx/2016.3/platforms/zybo/hw/zybo.hpfm    -o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.cdb/xd_ip_db.xml  
+INFO: Using user-defined path for XILINX_XD environment variable D:/Xilinx/SDx/2016.3
+INFO: [SDSoC 0-0] Using prebuilt hardware
+INFO: [SDSoC 0-0] Skipping block diagram (BD), address map, port information and device registration for partition 0
+INFO: [SDSoC 0-0] Prepare hardware access API functions
+INFO: [SDSoC 0-0] Create accelerator stub functions
+INFO: [SDSoC 0-0] Compile hardware access API functions
+arm-linux-gnueabihf-gcc       -I D:/Xilinx/SDx/2016.3/aarch32-linux/include  -I D:/Xilinx/SDx/2016.3/Vivado_HLS/include -c  C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/portinfo.c
+arm-linux-gnueabihf-g++      -I D:/Xilinx/SDx/2016.3/aarch32-linux/include  -I D:/Xilinx/SDx/2016.3/Vivado_HLS/include -c  C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/cf_stub.c
+arm-linux-gnueabihf-ar crs C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/libxlnk_stub.a C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/portinfo.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/cf_stub.o
+INFO: [SDSoC 0-0] Compile accelerator stub functions
+arm-linux-gnueabihf-ar crs C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/libvideotutorial_1.a C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/portinfo.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/cf_stub.o 
+INFO: [SDSoC 0-0] Link application ELF file
+arm-linux-gnueabihf-g++     C:/Users/DevolutionX/workspace/videotutorial_1/Debug/src/main.o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/portinfo.o {-LC:\Users\DevolutionX\workspace\videotutorial_1\lib} -llua   -L D:/Xilinx/SDx/2016.3/aarch32-linux/lib -LC:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs -Wl,--start-group  -Wl,--end-group -Wl,--start-group    -lpthread -lsds_lib -lxlnk_stub  -Wl,--end-group -o C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/videotutorial_1.elf
+C:\Users\DevolutionX\workspace\videotutorial_1\lib\liblua.a(loslib.o): In function `os_tmpname':
+loslib.c:(.text+0x370): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+arm-linux-gnueabihf-objcopy -R .xdinfo -R .xddata -R .xdasm -R .xdfcnmap -R .xdhlscore -R .xdif -R .xdparams -R .xdcore -R .xdsdata -R .xdpp C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/videotutorial_1.elf
+INFO: [SDSoC 0-0] Enable generation of boot files
+INFO: [SDSoC 0-0] Calling system_linker for partition 0
+system_linker -cf-input C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.llvm/apsys_0.xml -cf-output-dir _sds/p0 -ip-db C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/.cdb/xd_ip_db.xml -ip-repo C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/iprepo/repo -sds-pf D:/Xilinx/SDx/2016.3/platforms/zybo:linux  -sds-sys-config linux -sds-proc a9_0   -bit-name videotutorial_1.elf.bit -boot-files   -target-os linux -mdev-no-swgen -mdev-no-xsd -mdev-no-swgen -mdev-no-xsd -sdsoc -sd-output-dir _sds/p0/sd_card -bit-binary -elf C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/swstubs/videotutorial_1.elf
+system_linker started at Wed Jan 11 02:08:18 -0500 2017
+INFO: [SDSoC 0-0] Creating boot files
+system_linker completed at Wed Jan 11 02:08:20 -0500 2017
+sds++ log file saved as C:/Users/DevolutionX/workspace/videotutorial_1/Debug/_sds/reports/sds.log
+sds++ completed at Wed Jan 11 02:08:20 -0500 2017

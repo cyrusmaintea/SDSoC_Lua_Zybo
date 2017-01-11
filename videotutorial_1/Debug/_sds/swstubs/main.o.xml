@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:source name="main.c" compiler="gcc" objfile="src/main.o" srcpath="C:/Users/DevolutionX/workspace/videotutorial_1/src" flags="-IC:/Users/DevolutionX/workspace/videotutorial_1/src -IC:/Users/DevolutionX/workspace/videotutorial_1/include/lua -IC:/Users/DevolutionX/workspace/videotutorial_1/src -Wall -O0 -g -fmessage-length=0 -MMD -MP -D __SDSCC__"/>
+</xd:data>

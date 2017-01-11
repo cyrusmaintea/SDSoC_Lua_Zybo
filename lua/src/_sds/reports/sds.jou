@@ -1,0 +1,19 @@
+(c) Copyright 2012-2016 Xilinx, Inc. All Rights Reserved.
+#-----------------------------------------------------------
+# Tool version  : sdscc 2016.3 SW Build 1721985 on Nov 29 2016 18:45:16
+# Start time    : Tue Jan 10 22:22:28 -0500 2017
+# Command line  : sdscc -std=gnu99 -o luac luac.o liblua.a -lm
+# Log file      : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds.log
+# Journal file  : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds.jou
+# Report file   : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds.rpt
+#-----------------------------------------------------------
+
+# INFO: [SDSoC 0-0] Removing implementation files from previous run
+# INFO: [SDSoC 0-0] Analyzing object files
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/lua/src/luac.o C:/Users/DevolutionX/workspace/lua/src/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/lua/src/luac.o C:/Users/DevolutionX/workspace/lua/src/_sds/.data/xddata.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xdinfo=alloc --only-section=.xdinfo C:/Users/DevolutionX/workspace/lua/src/liblua.a C:/Users/DevolutionX/workspace/lua/src/_sds/.data/xdinfo.xml
+arm-linux-gnueabihf-objcopy -O binary --set-section-flags .xddata=alloc --only-section=.xddata C:/Users/DevolutionX/workspace/lua/src/liblua.a C:/Users/DevolutionX/workspace/lua/src/_sds/.data/xddata.xml
+# INFO: [SDSoC 0-0] Link application ELF file
+arm-linux-gnueabihf-gcc C:/Users/DevolutionX/workspace/lua/src/luac.o C:/Users/DevolutionX/workspace/lua/src/liblua.a   -std=gnu99 -lm -o luac
+# sdscc completed at Tue Jan 10 22:22:29 -0500 2017

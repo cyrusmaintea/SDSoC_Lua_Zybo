@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:source name="lauxlib.c" compiler="gcc" objfile="lauxlib.o" srcpath="C:/Users/DevolutionX/workspace/lua/src" flags="-IC:/Users/DevolutionX/workspace/lua/src  -std=gnu99 -O2 -Wall -Wextra -DLUA_COMPAT_5_2 -D __SDSCC__"/>
+</xd:data>

@@ -1,0 +1,16 @@
+(c) Copyright 2012-2016 Xilinx, Inc. All Rights Reserved.
+#-----------------------------------------------------------
+# Tool version  : sdscc 2016.3 SW Build 1721985 on Nov 29 2016 18:45:16
+# Start time    : Tue Jan 10 22:22:05 -0500 2017
+# Command line  : sdscc -std=gnu99 -O2 -Wall -Wextra -DLUA_COMPAT_5_2 -c -o lcorolib.o lcorolib.c
+# Log file      : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds_lcorolib.log
+# Journal file  : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds_lcorolib.jou
+# Report file   : C:/Users/DevolutionX/workspace/lua/src/_sds/reports/sds_lcorolib.rpt
+#-----------------------------------------------------------
+
+# INFO: [SDSoC 0-0] Create data motion intermediate representation
+clang_wrapper  -std=gnu99 -Wall -Wextra -DLUA_COMPAT_5_2 -D __SDSCC__ -target arm-linux-gnueabihf -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -O0 -g     -I D:/Xilinx/SDx/2016.3/aarch32-linux/include  -I D:/Xilinx/SDx/2016.3/Vivado_HLS/include   -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/lib/gcc/arm-linux-gnueabihf/5.2.1/include -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/lib/gcc/arm-linux-gnueabihf/5.2.1/include-fixed -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/arm-linux-gnueabihf/include -ID:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-linux-gnueabi/arm-linux-gnueabihf/libc/usr/include -emit-llvm -S C:/Users/DevolutionX/workspace/lua/src/lcorolib.c -o C:/Users/DevolutionX/workspace/lua/src/_sds/.llvm/lcorolib.s
+# INFO: [SDSoC 0-0] Compiling C:/Users/DevolutionX/workspace/lua/src/lcorolib.c
+arm-linux-gnueabihf-gcc -c  -std=gnu99 -O2 -Wall -Wextra -DLUA_COMPAT_5_2 -D __SDSCC__      -I D:/Xilinx/SDx/2016.3/aarch32-linux/include  -I D:/Xilinx/SDx/2016.3/Vivado_HLS/include C:/Users/DevolutionX/workspace/lua/src/lcorolib.c -o lcorolib.o
+arm-linux-gnueabihf-objcopy --add-section .xdsdata=C:/Users/DevolutionX/workspace/lua/src/_sds/swstubs/lcorolib.o.xml lcorolib.o
+# sdscc completed at Tue Jan 10 22:22:06 -0500 2017
